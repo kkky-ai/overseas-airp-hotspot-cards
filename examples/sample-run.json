@@ -1,0 +1,91 @@
+{
+  "run": {
+    "run_id": "sample-001",
+    "research_date": "2026-11-05",
+    "freshness_window": "7 days",
+    "requested_count": 1,
+    "notes": "Synthetic example for validating the workbook script; not real trend research."
+  },
+  "events": [
+    {
+      "event_id": "sample-event-001",
+      "country": "United States",
+      "country_weight": 1.0,
+      "event_date": "2026-11-04",
+      "event_name": "示例热点事件（虚构测试数据）",
+      "fact_summary": "This event and all metrics are synthetic test data used only to demonstrate the workbook contract.",
+      "source_urls": [
+        "https://example.com/fact",
+        "https://example.com/social"
+      ],
+      "fiction_boundary": "All event facts, metrics and card content in this sample are synthetic.",
+      "score": {
+        "recency": 15,
+        "reach": 21,
+        "breadth": 17,
+        "media": 13,
+        "market": 9,
+        "airp": 13
+      },
+      "gates": {
+        "fact_integrity": true,
+        "independent_attention": true,
+        "breakout_pattern": true
+      },
+      "breakout_pattern": "social",
+      "heat_tier": "Qualified",
+      "qualification_reason": "Synthetic sample includes fact confirmation and a social metric over the test threshold.",
+      "rejection_reason": "",
+      "evidence": [
+        {
+          "evidence_type": "fact confirmation",
+          "platform_or_publisher": "Example News",
+          "url": "https://example.com/fact",
+          "published_at": "2026-11-04T10:00:00-05:00",
+          "captured_at": "2026-11-05T09:00:00+08:00",
+          "country": "United States",
+          "metric_name": "confirmation",
+          "metric_value": "1",
+          "metric_window": "24 hours",
+          "is_independent": true,
+          "notes": "Synthetic"
+        },
+        {
+          "evidence_type": "social velocity",
+          "platform_or_publisher": "Example Social",
+          "url": "https://example.com/social",
+          "published_at": "2026-11-04T11:00:00-05:00",
+          "captured_at": "2026-11-05T09:00:00+08:00",
+          "country": "United States",
+          "metric_name": "views",
+          "metric_value": "500000",
+          "metric_window": "24 hours",
+          "is_independent": true,
+          "notes": "Synthetic"
+        }
+      ],
+      "card": {
+        "card_name": "The Letter Between Us",
+        "related_roles": "Bot: an acclaimed creative director. User: his longtime partner and manager.",
+        "related_plot": "A planned proposal collides with the user's resignation, creating career, trust and relationship branches.",
+        "card_value": "The user holds immediate leverage and can choose separation, renegotiation or reconciliation.",
+        "cover": "Prompt ready",
+        "character_name": "Adrian Vale",
+        "bot_id": "TBD",
+        "gender": "Male",
+        "type": "Character",
+        "short_intro": "He brought a ring to his victory party. You brought the resignation letter that could end everything.",
+        "detailed_intro": "Synthetic public introduction for workbook validation.",
+        "opening": "*He sees the envelope in your hand and closes his fingers around the ring box.* \"Which goodbye is that?\"",
+        "detailed_settings": "Synthetic private settings for workbook validation.",
+        "tags": [
+          "OC (Original Character)",
+          "Romance",
+          "Lovers"
+        ],
+        "cover_image_prompt": "A vertical cinematic portrait of an original adult creative director at the moment he notices a resignation letter.",
+        "qa_status": "Passed"
+      }
+    }
+  ]
+}

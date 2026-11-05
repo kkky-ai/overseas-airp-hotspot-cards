@@ -1,0 +1,10 @@
+{
+  "run": {
+    "run_id": "template",
+    "research_date": "",
+    "freshness_window": "7 days",
+    "requested_count": 0,
+    "notes": "Blank workbook template"
+  },
+  "events": []
+}
