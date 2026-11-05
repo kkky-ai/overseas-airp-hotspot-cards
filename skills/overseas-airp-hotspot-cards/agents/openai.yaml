@@ -1,0 +1,7 @@
+interface:
+  display_name: "Overseas AIRP Card Studio"
+  short_description: "Turn verified global trends into AIRP bot card assets"
+  default_prompt: "Use $overseas-airp-hotspot-cards to find genuinely hot overseas events, create original AIRP bot cards, and append all outputs to the master Excel workbook."
+
+policy:
+  allow_implicit_invocation: true
